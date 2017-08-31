@@ -1,6 +1,7 @@
 package com.lezai17.web.controller;
 
 import com.lezai17.model.PersonForm;
+import com.lezai17.model.test.User;
 import com.lezai17.web.service.AbcService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,11 +20,11 @@ public class WebController {
 
     @GetMapping("/form")
     public String showForm(PersonForm personForm) {
-/*        abcService.echoService.echo("abc");
+        abcService.echoService.echo("abc");
         User user = new User();
         user.setPassword("123456");
         user.setUsername("张三");
-        System.out.println(abcService.echoService.insertUser(user));*/
+        System.out.println(abcService.echoService.insertUser(user));
         return "form";
     }
 

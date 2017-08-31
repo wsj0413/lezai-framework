@@ -18,6 +18,7 @@
         <module>lezai-task</module>
         <module>lezai-admin</module>
         <module>lezai-provider</module>
+        <module>lezai-client</module>
     </modules>
 
     <parent>
